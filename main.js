@@ -6,7 +6,7 @@ window.addEventListener('keydown', (e) =>{
 	audio.currentTime = 0; // resets the audio so you can press the key repeatedly
 	audio.play();
 
-	key.classList.add('playing');
+	key.classList.toggle('playing');
 
 });
 
